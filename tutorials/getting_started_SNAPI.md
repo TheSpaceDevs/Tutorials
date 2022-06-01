@@ -1,1 +1,1 @@
-# Launch Library 2 FAQ
+# Getting started with the Spaceflight News API
