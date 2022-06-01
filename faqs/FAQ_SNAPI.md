@@ -1,1 +1,0 @@
-# Spaceflight News API FAQ
