@@ -1,1 +1,1 @@
-# Launch Library 2 FAQ
+# Getting started with Launch Library 2
