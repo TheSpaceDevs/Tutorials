@@ -26,9 +26,9 @@ If you have any question, feedback, or want to interact with the staff and commu
   * Process and visualize data
     * [Coming soon™] Process and make statistics with LL2 data
     * [Coming soon™] Process and visualize launch telemetry with LDAPI
-  * Make basic services
-    * [Coming soon™] Create a basic Discord bot that uses LL2 and SNAPI
-    * [Coming soon™] Create a basic iOS app that uses LL2 and SNAPI
+  * Develop basic services
+    * [Coming soon™] Create a Discord bot that uses LL2 and SNAPI
+    * [Coming soon™] Create an iOS app that uses LL2 and SNAPI
   
 
 <!-- End TOC (do not remove me) -->
