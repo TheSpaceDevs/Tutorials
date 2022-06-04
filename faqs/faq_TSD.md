@@ -183,7 +183,7 @@ There are two main ways to contact the TSD staff:
 - On the [Discord server](https://discord.gg/p7ntkNA).
 - By email to [support@thespacedevs.com](mailto:support@thespacedevs.com).
 
-Additionally, you can also find us on [Twitter](https://twitter.com/TheSpaceDevs)
-, [Facebook](https://www.facebook.com/TheSpaceDevs/) and [LinkedIn](https://www.linkedin.com/company/42873958/).
+Additionally, you can also find us on [Twitter](https://twitter.com/TheSpaceDevs), 
+[Facebook](https://www.facebook.com/TheSpaceDevs/) and [LinkedIn](https://www.linkedin.com/company/42873958/).
 
 
