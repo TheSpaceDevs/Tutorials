@@ -1,6 +1,6 @@
-# Launch Library 2 - Frequently Asked Questions (FAQ)
+![SNAPI Cover](../assets/ll2_poster.png)
 
-![SNAPI Cover](../assets/LL2_poster.png)
+# Launch Library 2 - Frequently Asked Questions (FAQ)
 
 ## Table of Contents
 
@@ -13,7 +13,6 @@
 * [Users](#users)
 * [Staff](#staff)
 * [Contact](#contact)
-
 
 ### Data
 
