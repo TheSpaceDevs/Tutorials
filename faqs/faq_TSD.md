@@ -144,7 +144,7 @@ If you think you do, please contact our staff to discuss a potential partnership
 
 > ### What is a *verified* TSD user?
 
-*Verified* TSD users are services, projects or entities that actively use data from one of the TSD APIs. They are
+*Verified* TSD users are services, projects or entities that actively use data provided by TSD APIs. They are
 listed on the users page of the TSD website [here](https://thespacedevs.com/networkusers).
 
 > ### How do I become a *verified* TSD user?
