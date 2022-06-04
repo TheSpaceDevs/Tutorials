@@ -46,8 +46,8 @@ Now, the Spaceflight News API and the original Launch Library API with the follo
 Management of *The Space Devs* is handled by a core staff team of developers and librarians involved in the project
 foundation in 2020 and its predecessors as staff members of the original Launch Library and Space Launch Now APIs.
 
-A crucial management goal is to ensure that the APIs are and remain **financially sustainable in the long-term**, even
-while being **free to use**. This is what the original Launch Library API failed to achieve and the reason this goal is
+A crucial management goal is to ensure that the APIs are and remain **financially sustainable in the long-term**, while
+remaining **free to use**. This is what the original Launch Library API failed to achieve and the reason this goal is
 of utmost importance for Launch Library 2, and *The Space Devs* in general. It comes with implications on access rates
 explained in more details [here](#are-the-tsd-apis-free-to-use).
 
@@ -110,7 +110,7 @@ Both Launch Library 2 and the Spaceflight News API are **free to use**.
 Library 2**, our most popular and therefore most expensive API, is limited to **15 calls per hour**. During development,
 a development API is available with no rate limiting but stale data, more info [here](faq_LL2.md#what-is-lldev). If you
 want higher rates, to refresh data more often close to launches or to support a larger project, it is possible to
-increase this limit by using an API key (see how to acquire one[here](faq_LL2.md#how-do-i-get-an-api-key) and how to use
+increase this limit by using an API key (see how to acquire one [here](faq_LL2.md#how-do-i-get-an-api-key) and how to use
 it [here](faq_LL2.md#how-do-i-use-my-api-key)).
 
 Whether you need higher rates than the free tier or not, we **heavily** encourage you to cache the output on your side
