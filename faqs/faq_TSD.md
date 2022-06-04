@@ -110,7 +110,8 @@ Both Launch Library 2 and the Spaceflight News API are **free to use**.
 Library 2**, our most popular and therefore most expensive API, is limited to **15 calls per hour**. During development,
 a development API is available with no rate limiting but stale data, more info [here](faq_LL2.md#what-is-lldev). If you
 want higher rates, to refresh data more often close to launches or to support a larger project, it is possible to
-increase this limit by using an API key (see how to acquire one [here](faq_LL2.md#how-do-i-get-an-api-key) and how to use
+increase this limit by using an API key (see how to acquire one [here](faq_LL2.md#how-do-i-get-an-api-key) and how to
+use
 it [here](faq_LL2.md#how-do-i-use-my-api-key)).
 
 Whether you need higher rates than the free tier or not, we **heavily** encourage you to cache the output on your side
@@ -120,17 +121,43 @@ and avoid having user clients query TSD APIs directly.
 
 ### What is a TSD partner?
 
+There are three *founding partners* of *The Space Devs* : [Space Launch Now](https://spacelaunchnow.me),
+[Go4Liftoff](https://go4liftoff.com), and the [Spaceflight News API](https://spaceflightnewsapi.net). The first two
+were the main actors of the foundation of The Space Devs when it was created to carry over the Launch Library torch.
+The third and final one, which was then already a close partner of the two others, became part of The Space Devs at its
+foundation by making SNAPI a TSD API.
+
+Other TSD partners satisfy one or more of the following requirements:
+
+- Provide an API or service that integrates LL2 and/or SNAPI IDs into their own data to allow for easy cross-linking.
+- Provide a custom service to TSD built according to TSD-defined needs.
+
+Current TSD partners are listed on the TSD website [here](https://thespacedevs.com/networkpartners).
+
 ### How do I become a TSD partner?
+
+To qualify as a potential TSD partner, you need to meet at least one of the requirements listed above.
+
+If you think you do, please contact our staff to discuss a potential partnership.
 
 ## Users
 
 ### What is a *verified* TSD user?
 
+*Verified* TSD users are services, projects or entities that actively use data from one of the TSD APIs. They are
+listed on the users page of the TSD website [here](https://thespacedevs.com/networkusers).
+
 ### How do I become a *verified* TSD user?
+
+To be considered a *verified* TSD user and added to the users page of the TSD website
+[here](https://thespacedevs.com/networkusers), send a message with the required format in the `#users` channel (see
+pinned message) of the TSD [Discord server](https://discord.gg/p7ntkNA), or contact our staff directly.
 
 ## Staff
 
 ### What does the TSD staff do?
+
+
 
 ### How do I become a TSD staff member?
 
