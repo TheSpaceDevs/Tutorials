@@ -19,13 +19,16 @@ If you have any question, feedback, or want to interact with the staff and commu
   * [The Space Devs](faqs/faq_TSD.md)
   * [Launch Library 2](faqs/faq_LL2.md)
   * [Spaceflight News API](faqs/faq_SNAPI.md)
-* Getting Started
-  * [Launch Library 2](tutorials/getting_started_LL2.md)
-  * [Spaceflight News API](tutorials/getting_started_SNAPI.md)
 * Tutorials
-  * [Coming soon™] Process and make statistics with LL2 data
-  * [Coming soon™] Create a basic Discord bot that uses LL2 and SNAPI
-  * [Coming soon™] Create a basic iOS app that uses LL2 and SNAPI
-  * [Coming soon™] Process and visualize launch telemetry with LDAPI
+  * Getting started
+    * [Launch Library 2](tutorials/getting_started_LL2.md)
+    * [Spaceflight News API](tutorials/getting_started_SNAPI.md)
+  * Process and visualize data
+    * [Coming soon™] Process and make statistics with LL2 data
+    * [Coming soon™] Process and visualize launch telemetry with LDAPI
+  * Make basic services
+    * [Coming soon™] Create a basic Discord bot that uses LL2 and SNAPI
+    * [Coming soon™] Create a basic iOS app that uses LL2 and SNAPI
+  
 
 <!-- End TOC (do not remove me) -->
