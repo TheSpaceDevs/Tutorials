@@ -9,8 +9,9 @@ This repository contains FAQs related to our Launch Library 2 and Spaceflight Ne
 ## Table of Contents
 <!-- Start TOC (do not remove me) -->
 * Frequently Asked Questions
-  * [Launch Libary 2](faqs/FAQ_LL2.md)
-  * [Spaceflight News API](faqs/FAQ_SNAPI.md)
+  * [Launch Libary 2](faqs/faq_LL2.md)
+  * [Spaceflight News API](faqs/faq_SNAPI.md)
 * Getting Started
-
+  * [Launch Libary 2](tutorials/getting_started_LL2.md)
+  * [Spaceflight News API](tutorials/getting_started_SNAPI.md)
 <!-- End TOC (do not remove me) -->
