@@ -1,4 +1,4 @@
-![SNAPI Cover](../assets/ll2_poster.png)
+![SNAPI Cover](../assets/ll2_historic_launches.png)
 
 # Launch Library 2 - Frequently Asked Questions (FAQ)
 
