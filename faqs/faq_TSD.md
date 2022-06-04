@@ -157,12 +157,33 @@ pinned message) of the TSD [Discord server](https://discord.gg/p7ntkNA), or cont
 
 > ### What does the TSD staff do?
 
+There are two main roles in the TSD team: developers maintain and improve the infrastructure of TSD APIs and services,
+while librarians maintain the data.
 
+The core staff members of *The Space Devs* are developers and librarians part of the project since its foundation
+in 2020. They were all previously staff members of Space Launch Now or the original Launch Library API.
+
+Other staff members are new librarians who have joined the project since 2020 to help with the ever-increasing workload
+associated with the data.
 
 > ### How do I become a TSD staff member?
+
+The TSD team usually sends proposals to people deemed to be a helpful addition to the team when a need for additional
+staff is felt. If you think you can fit a role and would like to join the TSD team, please contact our staff.
+
+Note that the TSD team is not always looking for new staff members. So your application might not be considered for a
+long time.
 
 ## Contact
 
 > ### How do I contact the TSD staff?
+
+There are two main ways to contact the TSD staff:
+
+- On the [Discord server](https://discord.gg/p7ntkNA).
+- By email to [support@thespacedevs.com](mailto:support@thespacedevs.com).
+
+Additionally, you can also find us on [Twitter](https://twitter.com/TheSpaceDevs)
+, [Facebook](https://www.facebook.com/TheSpaceDevs/) and [LinkedIn](https://www.linkedin.com/company/42873958/).
 
 
