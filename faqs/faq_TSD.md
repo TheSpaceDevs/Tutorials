@@ -1,6 +1,6 @@
-# The Space Devs - Frequently Asked Questions (FAQ)
-
 ![TSD Cover](../assets/tsd_cover.png)
+
+# The Space Devs - Frequently Asked Questions (FAQ)
 
 ## Table of Contents
 
