@@ -12,7 +12,7 @@
     * [How is TSD funded?](#how-is-tsd-funded)
 * [APIs](#apis)
     * [Which APIs are available?](#which-apis-are-available)
-    * [Are the APIs free to use?](#are-the-apis-free-to-use)
+    * [Are the APIs free to use?](#are-the-tsd-apis-free-to-use)
 * [Partners](#partners)
     * [What is a TSD partner?](#what-is-a-tsd-partner)
     * [How do I become a TSD partner?](#how-do-i-become-a-tsd-partner)
@@ -31,9 +31,34 @@
 
 ### What is *The Space Devs* (TSD)?
 
+*The Space Devs* (TSD) is a group of space enthusiast developers and librarians working on APIs to improve public
+knowledge and accessibility of spaceflight information. It was created in 2020 by core staff members of Space Launch
+Now, the Spaceflight News API and the original Launch Library API with the following objectives:
+
+- Maintain and promote the Launch Library 2 and Spaceflight News APIs.
+- Integrate with third-party APIs and services ([TSD partners](#partners)).
+- Unite its users into a community of space enthusiast developers ([TSD users](#users)).
+
+*The Space Devs* is **not** affiliated with any space agencies or spaceflight companies.
+
 ### How is TSD managed?
 
+Management of *The Space Devs* is handled by a core staff team of developers and librarians involved in the project
+foundation in 2020 and its predecessors as staff members of the original Launch Library and Space Launch Now APIs.
+
+A crucial management goal is to ensure that the APIs are and remain **financially sustainable in the long-term**, even
+while being **free to use**. This is what the original Launch Library API failed to achieve and the reason this goal is
+of utmost importance for Launch Library 2, and *The Space Devs* in general. It comes with implications on access rates
+explained in more details [here](#are-the-tsd-apis-free-to-use).
+
 ### How is TSD funded?
+
+*The Space Devs* is **not** a company aiming to make profit. Its only purpose is to provide up-to-date data through APIs
+accessible for free while also covering its expenses.
+
+100% of its funding comes from the community through [Patreon](https://www.patreon.com/TheSpaceDevs) subscriptions.
+These subscriptions are also a way to access the Launch Library 2 API at higher rates than at the free tier. More
+details [here](#are-the-tsd-apis-free-to-use).
 
 ## APIs
 
@@ -77,7 +102,18 @@ Two other APIs are provided by TSD partners :
   You can find more information about Flight Club [here](https://flightclub.io) and the API
   documentation [here](https://api.flightclub.io/swagger-ui.html).
 
-### Are the APIs free to use?
+### Are the TSD APIs free to use?
+
+Both Launch Library 2 and the Spaceflight News API are **free to use**.
+
+***However***, server costs still need to be covered by TSD. For this purpose and to avoid abuse, access to **Launch
+Library 2**, our most popular and therefore most expensive API, is limited to **15 calls per hour**. This limit is
+sufficient for hobbyists and small projects. If you want higher rates, to refresh data more often close to launches or
+to support a larger project, it is possible to increase this limit by using an API key (see how to acquire one
+[here](faq_LL2.md#how-do-i-get-an-api-key) and how to use it [here](faq_LL2.md#how-do-i-use-my-api-key)).
+
+Whether you need higher rates than the free tier or not, we **heavily** encourage you to cache the output on your side
+and avoid having user clients query TSD APIs directly.
 
 ## Partners
 
