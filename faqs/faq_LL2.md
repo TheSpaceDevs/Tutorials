@@ -14,6 +14,7 @@
 * [Staff](#staff)
 * [Contact](#contact)
 * [Free and paid access](#free-and-paid-access)
+  * [What is lldev?](#what-is-lldev)
   * [Do I need an API key?](#do-i-need-an-api-key)
   * [How do I get an API key?](#how-do-i-get-an-api-key)
   * [How do I use my API key?](#how-do-i-use-my-api-key)
@@ -24,6 +25,8 @@
 ### Where does LL2 data come from?
 
 ## Free and paid access
+
+## What is lldev?
 
 ### Do I need an API key?
 

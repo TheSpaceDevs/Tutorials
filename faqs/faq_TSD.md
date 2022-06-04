@@ -107,10 +107,11 @@ Two other APIs are provided by TSD partners :
 Both Launch Library 2 and the Spaceflight News API are **free to use**.
 
 ***However***, server costs still need to be covered by TSD. For this purpose and to avoid abuse, access to **Launch
-Library 2**, our most popular and therefore most expensive API, is limited to **15 calls per hour**. This limit is
-sufficient for hobbyists and small projects. If you want higher rates, to refresh data more often close to launches or
-to support a larger project, it is possible to increase this limit by using an API key (see how to acquire one
-[here](faq_LL2.md#how-do-i-get-an-api-key) and how to use it [here](faq_LL2.md#how-do-i-use-my-api-key)).
+Library 2**, our most popular and therefore most expensive API, is limited to **15 calls per hour**. During development,
+a development API is available with no rate limiting but stale data, more info [here](faq_LL2.md#what-is-lldev). If you
+want higher rates, to refresh data more often close to launches or to support a larger project, it is possible to
+increase this limit by using an API key (see how to acquire one[here](faq_LL2.md#how-do-i-get-an-api-key) and how to use
+it [here](faq_LL2.md#how-do-i-use-my-api-key)).
 
 Whether you need higher rates than the free tier or not, we **heavily** encourage you to cache the output on your side
 and avoid having user clients query TSD APIs directly.
