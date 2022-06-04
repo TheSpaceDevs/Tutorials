@@ -29,7 +29,7 @@
 
 ## About
 
-### What is *The Space Devs* (TSD)?
+> ### What is *The Space Devs* (TSD)?
 
 *The Space Devs* (TSD) is a group of space enthusiast developers and librarians working on APIs to improve public
 knowledge and accessibility of spaceflight information. It was created in 2020 by core staff members of Space Launch
@@ -41,7 +41,7 @@ Now, the Spaceflight News API and the original Launch Library API with the follo
 
 *The Space Devs* is **not** affiliated with any space agencies or spaceflight companies.
 
-### How is TSD managed?
+> ### How is TSD managed?
 
 Management of *The Space Devs* is handled by a core staff team of developers and librarians involved in the project
 foundation in 2020 and its predecessors as staff members of the original Launch Library and Space Launch Now APIs.
@@ -51,7 +51,7 @@ remaining **free to use**. This is what the original Launch Library API failed t
 of utmost importance for Launch Library 2, and *The Space Devs* in general. It comes with implications on access rates
 explained in more details [here](#are-the-tsd-apis-free-to-use).
 
-### How is TSD funded?
+> ### How is TSD funded?
 
 *The Space Devs* is **not** a company aiming to make profit. Its only purpose is to provide up-to-date data through APIs
 accessible for free while also covering its expenses.
@@ -62,7 +62,7 @@ details [here](#are-the-tsd-apis-free-to-use).
 
 ## APIs
 
-### Which APIs are available?
+> ### Which APIs are available?
 
 *The Space Devs* currently handles and provides two APIs first-hand:
 
@@ -102,7 +102,7 @@ Two other APIs are provided by TSD partners :
   You can find more information about Flight Club [here](https://flightclub.io) and the API
   documentation [here](https://api.flightclub.io/swagger-ui.html).
 
-### Are the TSD APIs free to use?
+> ### Are the TSD APIs free to use?
 
 Both Launch Library 2 and the Spaceflight News API are **free to use**.
 
@@ -119,7 +119,7 @@ and avoid having user clients query TSD APIs directly.
 
 ## Partners
 
-### What is a TSD partner?
+> ### What is a TSD partner?
 
 There are three *founding partners* of *The Space Devs* : [Space Launch Now](https://spacelaunchnow.me),
 [Go4Liftoff](https://go4liftoff.com), and the [Spaceflight News API](https://spaceflightnewsapi.net). The first two
@@ -134,7 +134,7 @@ Other TSD partners satisfy one or more of the following requirements:
 
 Current TSD partners are listed on the TSD website [here](https://thespacedevs.com/networkpartners).
 
-### How do I become a TSD partner?
+> ### How do I become a TSD partner?
 
 To qualify as a potential TSD partner, you need to meet at least one of the requirements listed above.
 
@@ -142,12 +142,12 @@ If you think you do, please contact our staff to discuss a potential partnership
 
 ## Users
 
-### What is a *verified* TSD user?
+> ### What is a *verified* TSD user?
 
 *Verified* TSD users are services, projects or entities that actively use data from one of the TSD APIs. They are
 listed on the users page of the TSD website [here](https://thespacedevs.com/networkusers).
 
-### How do I become a *verified* TSD user?
+> ### How do I become a *verified* TSD user?
 
 To be considered a *verified* TSD user and added to the users page of the TSD website
 [here](https://thespacedevs.com/networkusers), send a message with the required format in the `#users` channel (see
@@ -155,14 +155,14 @@ pinned message) of the TSD [Discord server](https://discord.gg/p7ntkNA), or cont
 
 ## Staff
 
-### What does the TSD staff do?
+> ### What does the TSD staff do?
 
 
 
-### How do I become a TSD staff member?
+> ### How do I become a TSD staff member?
 
 ## Contact
 
-### How do I contact the TSD staff?
+> ### How do I contact the TSD staff?
 
 
