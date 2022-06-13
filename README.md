@@ -29,6 +29,7 @@ If you have any question, feedback, or want to interact with the staff and commu
   * Develop basic services
     * [Coming soon™] Create a Discord bot that uses LL2 and SNAPI
     * [Coming soon™] Create an iOS app that uses LL2 and SNAPI
+    * [Coming soon™] Use OpenAPI Generator with LL2
   
 
 <!-- End TOC (do not remove me) -->
