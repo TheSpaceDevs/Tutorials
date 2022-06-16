@@ -22,19 +22,27 @@
 
 ## Data
 
-### Where does LL2 data come from?
+> ### Where does LL2 data come from?
 
 ## Free and paid access
 
-## What is lldev?
+> ### What is lldev?
 
-### Do I need an API key?
+> ### Do I need an API key?
 
-### How do I get an API key?
+> ### How do I get an API key?
 
 To get an API key, choose the tier that satisfies your needs on our [Patreon](https://www.patreon.com/TheSpaceDevs) and
 head over to our [website](https://thespacedevs.com/supportus) to generate your key.
 
-### How do I use my API key?
+> ### How do I use my API key?
 
-### How do I change my API key?
+> ### How do I change my API key?
+
+## Endpoints
+
+> ### Why does past launch/event still appears in the upcoming endpoint ?
+
+## Status
+
+> ### Is Launch Library 2 down ?
