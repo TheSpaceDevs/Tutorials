@@ -22,6 +22,7 @@
     * [How are webcasts (`vidURLs`) selected and sorted?](#how-are-webcasts-vidurls-selected-and-sorted)
     * [How to exclude TSD videos from the webcast list?](#how-to-exclude-tsd-videos-from-the-webcast-list)
     * [What is a Launch Service Provider (LSP)?](#what-is-a-launch-service-provider-lsp)
+    * [Which suborbital launches are allowed in LL2?](#which-suborbital-launches-are-allowed-in-ll2)
     * [How is the data linked to other APIs?](#how-is-the-data-linked-to-other-apis)
 * [Free and paid access](#free-and-paid-access)
     * [Is LL2 free to use?](#is-ll2-free-to-use)
@@ -63,6 +64,8 @@
 > ### How to exclude TSD videos from the webcast list?
 
 > ### What is a Launch Service Provider (LSP)?
+
+> ### Which suborbital launches are allowed in LL2?
 
 > ### How is the data linked to other APIs?
 
