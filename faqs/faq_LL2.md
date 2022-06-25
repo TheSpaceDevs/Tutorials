@@ -1,9 +1,9 @@
 ![SNAPI Cover](../assets/ll2_historic_launches.png)
 
-# Launch Library 2 - Frequently Asked Questions (FAQ)
-
 [![Documentation](https://raw.githubusercontent.com/TheSpaceDevs/Tutorials/a10b94f4476ce7a134f9b6e0e75ef761cb35a446/assets/badge_ll2_doc.svg)](https://thespacedevs.com/)
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/p7ntkNA)
+
+# Launch Library 2 - Frequently Asked Questions (FAQ)
 
 
 ## Table of Contents
