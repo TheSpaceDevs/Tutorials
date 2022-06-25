@@ -2,14 +2,6 @@
 
 # The Space Devs - Frequently Asked Questions (FAQ)
 
-[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=Safari&logoColor=white)](https://thespacedevs.com/)
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/p7ntkNA)
-[![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/TheSpaceDevs)
-[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/TheSpaceDevs)
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TheSpaceDevs)
-[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/channel/UCCKiR4D6hbgk9lW9UwxZXxg)
-[![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=Reddit&logoColor=white)](https://www.reddit.com/r/TheSpaceDevs/)
-
 ## Table of Contents
 
 <!-- Start TOC (do not remove me) -->
