@@ -1,6 +1,6 @@
-![SNAPI Cover](../assets/ll2_historic_launches.png)
+![LL2 Cover](../assets/ll2_historic_launches.png)
 
-[![Documentation](https://raw.githubusercontent.com/TheSpaceDevs/Tutorials/a10b94f4476ce7a134f9b6e0e75ef761cb35a446/assets/badge_ll2_doc.svg)](https://thespacedevs.com/)
+[![Documentation](https://raw.githubusercontent.com/TheSpaceDevs/Tutorials/a10b94f4476ce7a134f9b6e0e75ef761cb35a446/assets/badge_ll2_doc.svg)](https://ll.thespacedevs.com/2.2.0/swagger/)
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/p7ntkNA)
 
 # Launch Library 2 - Frequently Asked Questions (FAQ)
