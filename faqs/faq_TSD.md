@@ -2,7 +2,7 @@
 
 # The Space Devs - Frequently Asked Questions (FAQ)
 
-[![Website](https://raw.githubusercontent.com/TheSpaceDevs/Tutorials/172c461a01e8348dadd27326682d72423e452269/assets/WEBSITE.svg)](https://thespacedevs.com/)
+[![Website](https://raw.githubusercontent.com/TheSpaceDevs/Tutorials/e36b2c250ce7fcd4a801c1ed6cb1f9f9d031696b/assets/badge_tsd_website.svg)](https://thespacedevs.com/)
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/p7ntkNA)
 [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/TheSpaceDevs)
 [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/TheSpaceDevs)
