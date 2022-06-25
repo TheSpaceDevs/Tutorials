@@ -1,6 +1,6 @@
 ![Repository Poster](assets/repo_poster.png)
 
-[![Website](assets/WEBSITE.svg)](https://thespacedevs.com/)
+[![Website](https://raw.githubusercontent.com/TheSpaceDevs/Tutorials/172c461a01e8348dadd27326682d72423e452269/assets/WEBSITE.svg)](https://thespacedevs.com/)
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/p7ntkNA)
 [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/TheSpaceDevs)
 [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/TheSpaceDevs)
