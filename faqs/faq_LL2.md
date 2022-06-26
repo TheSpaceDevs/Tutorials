@@ -23,6 +23,7 @@
     * [How to exclude TSD videos from the webcast list?](#how-to-exclude-tsd-videos-from-the-webcast-list)
     * [What is a Launch Service Provider (LSP)?](#what-is-a-launch-service-provider-lsp)
     * [Which suborbital launches are allowed in LL2?](#which-suborbital-launches-are-allowed-in-ll2)
+    * [Why do launches remain `In Flight` after deployment?](#why-do-launches-remain-in-flight-after-deployment)
     * [How is the data linked to other APIs?](#how-is-the-data-linked-to-other-apis)
 * [Free and paid access](#free-and-paid-access)
     * [Is LL2 free to use?](#is-ll2-free-to-use)
@@ -66,6 +67,8 @@
 > ### What is a Launch Service Provider (LSP)?
 
 > ### Which suborbital launches are allowed in LL2?
+
+> ### Why do launches remain `In Flight` after deployment?
 
 > ### How is the data linked to other APIs?
 
