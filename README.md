@@ -21,6 +21,7 @@ If you have any question, feedback, or want to interact with the staff and commu
   * [Launch Library 2](faqs/faq_LL2.md)
   * [Spaceflight News API](faqs/faq_SNAPI.md)
 * Tutorials
+  * [Contributing](tutorials/README.md)
   * Getting started
     * [Launch Library 2](tutorials/getting_started_LL2.md)
     * [Spaceflight News API](tutorials/getting_started_SNAPI.md)
