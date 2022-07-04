@@ -5,7 +5,6 @@
 
 # Launch Library 2 - Frequently Asked Questions (FAQ)
 
-
 ## Table of Contents
 
 <!-- Start TOC (do not remove me) -->
@@ -50,7 +49,18 @@
 
 > ### Is LL2 still under development?
 
+LL2 is still maintained and improved regularly. However, most of the upgrades are related to the admin panel or
+performance improvements, requiring no version bump. New features or data can also be added without bumping the LL2
+version if they are fully compatible.
+
+When a new version is released, the announcement will be made the TSD [Discord](https://discord.gg/p7ntkNA)
+and [Twitter](https://twitter.com/TheSpaceDevs) first.
+
 > ### Will there be a Launch Library 3?
+
+There is no plan for a major version update of LL2 at the moment. However, it is still under development and will be
+updated regularly. If there ever is, news will be announced on the TSD [Discord](https://discord.gg/p7ntkNA)
+and [Twitter](https://twitter.com/TheSpaceDevs) first.
 
 ## Data
 
