@@ -2,7 +2,7 @@
 
 The Launch Library 2 API enables you to request space related data, be it launches, astronauts or something else.
 
-The API is free for everyone to use, however there are [rate limits](getting_started_LL2#rate-limits) to prevent abuse and keep it free for everyone.
+The API is free for everyone to use, however there are [rate limits](#rate-limits) to prevent abuse and keep it free for everyone.
 If you desire a higher limit click [here](../faqs/faq_LL2.md#how-do-i-get-an-api-key) to find out how.
 
 ## Introduction
