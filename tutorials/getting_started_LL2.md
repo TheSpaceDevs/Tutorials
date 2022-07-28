@@ -59,7 +59,7 @@ The event and launch endpoints both contain previous and upcoming sub-endpoints 
 
 To query data, use GET on the endpoint URLs to which filters and search terms can added.
 
-<span style="color:red">All examples here use the development API `lldev`, use `ll` for production.</span>
+### All examples here use the development API `lldev`, use `ll` for production.
 
 > ### Filters
 
