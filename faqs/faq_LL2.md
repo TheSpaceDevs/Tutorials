@@ -45,7 +45,24 @@
 
 > ### What is *Launch Library 2* (LL2)?
 
+Launch Library 2 is a REST API providing space launch data including but not limited to :
+- All orbital and some suborbital launches, with related data such as webcasts, launch service providers, etc.
+- Spaceflight events
+- Space stations with related data such as dockings, expeditions
+- Astronauts and their flights
+- Launch vehicles, reusable firt stages and spacecraft
+- Programs : Apollo, Tiangon, Starship, etc. and their related data
+
 > ### How is LL2 related to the original Launch Library API?
+
+The retirement of the original Launch Library API was decided in December 2019 after the person paying for
+its expensive servers decided to leave the project. The remaining active librarians of the original Launch Library API
+teamed up with the staff of the Space Launch Now API to merge both efforts into an official successor :
+[Launch Library 2](https://thespacedevs.com/llapi). This new API would be managed by a new entity, separate of the
+user projects, called [The Space Devs](https://thespacedevs.com).
+
+The creation of The Space Devs was officially announced with the release of LL2 in July 2020, while the original Launch
+Library API stopped being updated in autumn 2020 and was discontinued in early 2021.
 
 > ### Is LL2 still under development?
 
@@ -58,46 +75,120 @@ and [Twitter](https://twitter.com/TheSpaceDevs) first.
 
 > ### Will there be a Launch Library 3?
 
-There is no plan for a major version update of LL2 at the moment. However, it is still under development and will be
-updated regularly. If there ever is, news will be announced on the TSD [Discord](https://discord.gg/p7ntkNA)
+There is no plan for a major version update of the Launch Library API at the moment. However, it is still under
+development and updated regularly. If there ever is, news will be announced on the TSD [Discord](https://discord.gg/p7ntkNA)
 and [Twitter](https://twitter.com/TheSpaceDevs) first.
 
 ## Data
 
 > ### What data is available?
 
+A list of the main data elements available through LL2 is available on its [web page](https://thespacedevs.com/llapi).
+The full list of endpoints is available in the [documentation](https://ll.thespacedevs.com/2.2.0/swagger/).
+
 > ### Where does LL2 get its data from?
+
+The day-to-day data in LL2 is added and maintained using public sources of three different types : 1st-party, 2nd-party and community.
+The 1st party data comes directly from space agencies, launch service providers, satellite operators, etc and is
+usually considered the most reliable. The 2nd party data comes from space journalists and news outlets which have proven
+reliable over the years. The community data comes from the forums or user reports and is not necessarily reliable.
+
+The historic data in LL2 is sourced from Jonathan McDowell's [GCAT](https://planet4589.org/space/gcat/),
+[Gunter's Space Page](https://space.skyrocket.de/index.html), [spacefacts.de](http://www.spacefacts.de/), as well
+as other public databases.
 
 > ### How often is the data updated?
 
+The data in LL2 is updated as often as needed, which means multiple times within an hour during launches or events,
+and usually a few times per day as new information is available.
+
 > ### How are webcasts (`vidURLs`) selected and sorted?
+
+When available, only official webcasts are provided in LL2. If there are multiple options, the english-speaking hosted 
+webcasts with the highest quality are prioritized.
+
+The priority value is an increasing number from the main webcasts to the secondary ones. This is done to easily sort
+the available webcasts from the most important to the least.
 
 > ### How to exclude TSD videos from the webcast list?
 
+After launches, some vidURLs with the lowest priority value are launch summary videos provided through the TSD youtube
+channel. These are simple edits to cut out the countdown sequence and holds.
+
+To exclude this, it is possible to use the YouTube API to filter out the videos from the
+[TSD YouTube channel](https://www.youtube.com/channel/UCCKiR4D6hbgk9lW9UwxZXxg).
+
 > ### What is a Launch Service Provider (LSP)?
+
+A Launch Service Provider (LSP) is a space agency or company that operates a launch (in the economics sense).
+It is not always the operator of the rocket, but is the entity responsible for the launch as seen from customers.
 
 > ### Which suborbital launches are allowed in LL2?
 
+All orbital launch attempts are included in LL2, however the suborbital launches considered must be livestreamed and 
+meet at least one of the following criteria:
+- Target an apogee of at least 100 km
+- Carry crew higher than 80 km
+- Draw significant public interest
+
+It is possible to suggest suborbital launches to be added to LL2 by asking librarians on the TSD
+[Discord](https://discord.gg/p7ntkNA).
+
+To remove suborbital launches from LL2 queries, it is possible to use the `include_suborbital=false` filter.
+
 > ### Why do launches remain `In Flight` after deployment?
 
+Launches where a liftoff was confirmed remain `In Flight` until a confirmation of acquisition of signal of the main
+payload is received. If not available (rideshare with many payloads, classified payloads, etc), the launch is considered
+successful when the launch service provider counts it as such, usually after deployment.
+
 > ### How is the data linked to other APIs?
+
+The LL2 launch and events IDs are used in following APIs
+- [Spaceflight News API](https://spaceflightnewsapi.net/) : to link related news articles
+- [Flight Club](https://flightclub.io/) : to link launch trajectory and telemetry data
+- [Launch Dashboard API](https://github.com/shahar603/Launch-Dashboard-API): to link launch telemetry data
+- [SpaceX API](https://github.com/r-spacex/SpaceX-API) : to link SpaceX-specific launch data
+
 
 ## Free and paid access
 
 > ### Is LL2 free to use?
 
+All the data in Launch Library 2 is free to acess with up to 15 API calls per hour.
+An API key is needed for higher access rates.
+
 > ### What is lldev?
+
+The `lldev` prefix (instead of `ll`) in LL2 calls can be used to reach the development API. It is the same API , but
+with no rate limits and a limited, stale data set. This should be used during development and testing, but
+never in production.
 
 > ### Do I need an API key?
 
+The 15 calls per hour limit should be enough for most uses. If you feel like you need more (for a mobile app for example),
+then consider setting up a cache updated within the 15 calls per hour limit that serves data to your clients instead.
+
+Additionally, it is recommended if real-time data is needed, to perform fewer API calls per hour overall and more
+around the time of the launch. Such optimizations of the API calls distribution can reduce the need for a paid API key.
+
+If these measures are not enough, then an API key is needed to get higher access rates.
+
 > ### How do I get an API key?
 
-To get an API key, choose the tier that satisfies your needs on our [Patreon](https://www.patreon.com/TheSpaceDevs) and
-head over to our [website](https://thespacedevs.com/supportus) to generate your key.
+To get an API key, first choose the tier that satisfies your needs on our [Patreon](https://www.patreon.com/TheSpaceDevs).
+Then head over to our [website](https://thespacedevs.com/supportus) and login with your Patreon account to generate your key.
 
 > ### How do I use my API key?
 
+To use your API key, add the following header in your request :
+- key: `"Authorization"`
+- value: `"Token <token>"`, where `<token>` is your API key (without the `<>`).
+
 > ### How do I change my API key?
+
+To change your API key, head over to our [website](https://thespacedevs.com/supportus), login with your Patreon account,
+and follow the instructions.
 
 ## Endpoints
 
