@@ -38,7 +38,7 @@
 * [Help & Contact](#help--contact)
     * [Is LL2 down?](#is-ll2-down)
     * [Where do I get help?](#where-do-i-get-help)
-    * [How do I report a bug?](#how-do-i-report-a-bug)
+    * [How do I report a bug/data mistake?](#how-do-i-report-a-bugdata-mistake)
     * [How do I contact the LL2 staff?](#how-do-i-contact-the-ll2-staff)
 
 ## About
@@ -197,13 +197,30 @@ and follow the instructions.
 > ### How to sort the API response?
 
 > ### Why do past items appear in the `upcoming` endpoints?
+Launches and events remain in the `upcoming` endpoint for 24 hours to allow services to update them with their final
+information (launch outcome, mainly) without needing an additional call to the `previous` endpoint.
+
+This behavior can be disabled using the `hide_recent_previous=true` filter.
 
 ## Help & Contact
 
 > ### Is LL2 down?
 
-> ### Where do I get help?
+The status of LL2 can be checked [here](https://ll.thespacedevs.com/health_check/). If you notice any issue, please
+let the staff know in the `#ll-feedback-and-help` channel on the TSD [Discord](https://discord.gg/p7ntkNA).
 
-> ### How do I report a bug?
+> ### Where do I get help?
+If you need any help with LL2, you can ask in the `#ll-feedback-and-help` channel of the TSD
+[Discord server](https://discord.gg/p7ntkNA) or email [support@thespacedevs.com](mailto:support@thespacedevs.com).
+
+> ### How do I report a bug/data mistake?
+
+If you found a bug or data mistake, let the staff know in the `#ll-feedback-and-help` or `#ll-data` channels on the TSD
+[Discord](https://discord.gg/p7ntkNA), or email [support@thespacedevs.com](mailto:support@thespacedevs.com).
 
 > ### How do I contact the LL2 staff?
+
+There are two main ways to contact the LL2 staff:
+
+- On the [Discord server](https://discord.gg/p7ntkNA).
+- By email to [support@thespacedevs.com](mailto:support@thespacedevs.com).
