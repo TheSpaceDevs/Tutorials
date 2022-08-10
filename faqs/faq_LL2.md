@@ -21,6 +21,8 @@
     * [How are webcasts (`vidURLs`) selected and sorted?](#how-are-webcasts-vidurls-selected-and-sorted)
     * [How to exclude TSD videos from the webcast list?](#how-to-exclude-tsd-videos-from-the-webcast-list)
     * [What is a Launch Service Provider (LSP)?](#what-is-a-launch-service-provider-lsp)
+    * [What date/time format is used in LL2?](#what-datetime-format-is-used-in-ll2)
+    * [What country code format is used in LL2?](#what-country-code-format-is-used-in-ll2)
     * [Which suborbital launches are allowed in LL2?](#which-suborbital-launches-are-allowed-in-ll2)
     * [Why do launches remain `In Flight` after deployment?](#why-do-launches-remain-in-flight-after-deployment)
     * [How is the data linked to other APIs?](#how-is-the-data-linked-to-other-apis)
@@ -33,6 +35,7 @@
     * [How do I change my API key?](#how-do-i-change-my-api-key)
 * [Endpoints](#endpoints)
     * [How to filter the API response?](#how-to-filter-the-api-response)
+    * [How to apply filters with multiple values?](#how-to-apply-filters-with-multiple-values)
     * [How to sort the API response?](#how-to-sort-the-api-response)
     * [Why do past items appear in the `upcoming` endpoints?](#why-do-past-items-appear-in-the-upcoming-endpoints)
 * [Help & Contact](#help--contact)
@@ -123,6 +126,10 @@ To exclude this, it is possible to use the YouTube API to filter out the videos 
 A Launch Service Provider (LSP) is a space agency or company that operates a launch (in the economics sense).
 It is not always the operator of the rocket, but is the entity responsible for the launch as seen from customers.
 
+> ### What date/time format is used in LL2?
+
+> ### What country code format is used in LL2?
+
 > ### Which suborbital launches are allowed in LL2?
 
 All orbital launch attempts are included in LL2, however the suborbital launches considered must be livestreamed and 
@@ -193,6 +200,8 @@ and follow the instructions.
 ## Endpoints
 
 > ### How to filter the API response?
+
+> ### How to apply filters with multiple values?
 
 > ### How to sort the API response?
 
