@@ -6,3 +6,6 @@
 
 # Spaceflight News API - Frequently Asked Questions (FAQ)
 
+## Table of Contents
+
+<!-- Start TOC (do not remove me) -->
