@@ -231,8 +231,8 @@ For example: https://ll.thespacedevs.com/2.2.0/launch/upcoming/?lsp__name=SpaceX
 
 > ### How to apply filters with multiple values?
 
-It is currently not possible to apply filters with multiple values. The workaround is to apply the filter with a single
-value over multiple requests.
+Only a handful of filters can be applied with multiple values, such as `spacecraft_config__ids`, `location__ids`,
+`lsp__ids`. For these, multiple values can be applied by separating them with `,`.
 
 > ### How to get more results in a single request?
 
