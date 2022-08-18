@@ -256,7 +256,7 @@ To access all the data and related objects (webcast URLs on the launch endpoint 
 
 > ### How to sort the API response?
 
-The API response can be sorted by any of the available fields using `odering=<field>`. To switch from ascending to
+The API response can be sorted by any of the available fields using `ordering=<field>`. To switch from ascending to
 descending order, add `-` to the beginnging of the field name: `ordering=-<field>`.
 
 > ### Why do past items appear in the `upcoming` endpoints?
