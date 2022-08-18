@@ -11,22 +11,22 @@ Since the production API `ll` has [rate limits](../../faqs/faq_LL2.md#free-and-p
 ## Quickstart
 
 To query data, endpoint URLs are used.
-Filters and search terms can added to these.
+Filters and search terms can be added to these.
 
-> ### Filters
+Querying the upcoming launch endpoint: https://lldev.thespacedevs.com/2.2.0/launch/upcoming/
 
 Adding filters is done by adding them to the base url.
-Here an example is given for finding launches between two dates.
 
-Example base url for upcoming launches:
 
-```
-https://lldev.thespacedevs.com/2.2.0/launch/
-```
+## Examples
+
+### Querying & filtering past launches in Python
+
+> Filtering
 
 Here two filters are added, a minimum and maximum date and time to get the launches between the two.
 
-Here the minimum is July 16, 1969 and the maximum Jul 20, 1969.
+The time frame of the minimum and maximum are a month ago and now.
 The filtered variable is `net`, which represents the launch datetime.
 
 To filter `net` we add two underscores `__` and the filter terms `gte` (greater-than-or-equal) and `lte` (less-than-or-equal).
@@ -35,28 +35,24 @@ Combining these two filters is done using the ampersand symbol `&`.
 Before adding these filters a question mark `?` is added after the base url to indicate the start of parameters.
 Then the filter parameter name is given with an equals sign `=` with the value following it.
 
-```
-https://lldev.thespacedevs.com/2.2.0/launch/?net__gte=1969-07-16T01:15:00Z&net__lte=1969-07-20T22:45:00Z
-```
+https://github.com/TheSpaceDevs/Tutorials/blob/60256f360d409f7938f52a11fde0615e4abb131e/tutorials/getting_started_LL2/launches_past_month.py#L7-L12
 
-Quering this we find out that a Saturn V rocket launched Apollo 11 in this time frame.
+> Setting response mode
 
-## Examples
+https://github.com/TheSpaceDevs/Tutorials/blob/60256f360d409f7938f52a11fde0615e4abb131e/tutorials/getting_started_LL2/launches_past_month.py#L23-L24
 
-Querying the upcoming launch endpoint in Python using the requests library:
+> Limiting
 
-```python
-import requests
+https://github.com/TheSpaceDevs/Tutorials/blob/60256f360d409f7938f52a11fde0615e4abb131e/tutorials/getting_started_LL2/launches_past_month.py#L26-L27
 
-launch_upcoming_url = 'https://lldev.thespacedevs.com/2.2.0/launch/upcoming/'
+> Ordering
 
-# Requesting data
-results = requests.get(launch_upcoming_url)
+https://github.com/TheSpaceDevs/Tutorials/blob/60256f360d409f7938f52a11fde0615e4abb131e/tutorials/getting_started_LL2/launches_past_month.py#L29-L30
 
-# Printing resulting dictionary
-print(
-    results.json()
-)
-```
+> Assembling query URL
+
+https://github.com/TheSpaceDevs/Tutorials/blob/60256f360d409f7938f52a11fde0615e4abb131e/tutorials/getting_started_LL2/launches_past_month.py#L32-L36
+
+> Paginating through all the results
 
 https://github.com/TheSpaceDevs/Tutorials/blob/60256f360d409f7938f52a11fde0615e4abb131e/tutorials/getting_started_LL2/launches_past_month.py#L47-L58
