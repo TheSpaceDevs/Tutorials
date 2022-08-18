@@ -155,8 +155,10 @@ listed on the users page of the TSD website [here](https://thespacedevs.com/netw
 > ### How do I become a *verified* TSD user?
 
 To be considered a *verified* TSD user and added to the users page of the TSD website
-[here](https://thespacedevs.com/networkusers), send a message with the required format in the `#users` channel (see
-pinned message) of the TSD [Discord server](https://discord.gg/p7ntkNA), or contact our staff directly.
+[here](https://thespacedevs.com/networkusers), send a message with the required format in
+the [`#users`](https://discord.com/channels/676725644444565514/805510731780587540) channel (see the
+[pinned message](https://discord.com/channels/676725644444565514/805510731780587540/805518057052569601)) of the
+TSD [Discord server](https://discord.gg/p7ntkNA), or contact our staff directly.
 
 ## Staff
 
