@@ -270,16 +270,20 @@ This behavior can be disabled using the `hide_recent_previous=true` filter.
 > ### Is LL2 down?
 
 The status of LL2 can be checked [here](https://ll.thespacedevs.com/health_check/). If you notice any issue, please
-let the staff know in the `#ll-feedback-and-help` channel on the TSD [Discord](https://discord.gg/p7ntkNA).
+let the staff know in the [`#ll-feedback-and-help`](https://discord.com/channels/676725644444565514/676726164659634186)
+channel on the TSD [Discord](https://discord.gg/p7ntkNA).
 
 > ### Where do I get help?
-If you need any help with LL2, you can ask in the `#ll-feedback-and-help` channel of the TSD
+If you need any help with LL2, you can ask in
+the [`#ll-feedback-and-help`](https://discord.com/channels/676725644444565514/676726164659634186) channel of the TSD
 [Discord server](https://discord.gg/p7ntkNA) or email [support@thespacedevs.com](mailto:support@thespacedevs.com).
 
 > ### How do I report a bug/data mistake?
 
-If you found a bug or data mistake, let the staff know in the `#ll-feedback-and-help` or `#ll-data` channels on the TSD
-[Discord](https://discord.gg/p7ntkNA), or email [support@thespacedevs.com](mailto:support@thespacedevs.com).
+If you found a bug or data mistake, let the staff know in
+the [`#ll-feedback-and-help`](https://discord.com/channels/676725644444565514/676726164659634186)
+or [`#ll-data`](https://discord.com/channels/676725644444565514/738822880875380746) channels on the TSD
+[Discord server](https://discord.gg/p7ntkNA), or email [support@thespacedevs.com](mailto:support@thespacedevs.com).
 
 > ### How do I contact the LL2 staff?
 
