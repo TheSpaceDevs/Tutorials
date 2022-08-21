@@ -1,6 +1,6 @@
 ![LL2 Cover](../assets/ll2_historic_launches.png)
 
-[![Documentation](https://raw.githubusercontent.com/TheSpaceDevs/Tutorials/a10b94f4476ce7a134f9b6e0e75ef761cb35a446/assets/badge_ll2_doc.svg)](https://ll.thespacedevs.com/2.2.0/swagger/)
+[![Documentation](https://raw.githubusercontent.com/TheSpaceDevs/Tutorials/a10b94f4476ce7a134f9b6e0e75ef761cb35a446/assets/badge_ll2_doc.svg)](https://ll.thespacedevs.com/docs/)
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/p7ntkNA)
 
 # Launch Library 2 - Frequently Asked Questions (FAQ)
@@ -136,7 +136,7 @@ and follow the instructions.
 > ### What data is available?
 
 A list of the main data elements available through LL2 is available on its [web page](https://thespacedevs.com/llapi).
-The full list of endpoints is available in the [documentation](https://ll.thespacedevs.com/2.2.0/swagger/).
+The full list of endpoints is available in the [documentation](https://ll.thespacedevs.com/docs/).
 
 > ### Where does LL2 get its data from?
 
