@@ -5,6 +5,7 @@ The Launch Library 2 API (LL2 for short) enables you to request space related da
 A full list of features can be found [here](https://thespacedevs.com/llapi).
 
 To get you started with the API, this tutorial contains some introductionary information together with code examples.
+For more detailed documentation on all the endpoints, please refer to the [documentation](https://ll.thespacedevs.com/docs/).
 
 Since the production API `ll` has [rate limits](../../faqs/faq_LL2.md#free-and-paid-access), the [development API](../../faqs/faq_LL2.md#what-is-lldev) `lldev` will be used in this tutorial, however this should <u>only by used for development.</u>
 
