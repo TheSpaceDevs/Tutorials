@@ -23,8 +23,8 @@ If you have any question, feedback, or want to interact with the staff and commu
 * Tutorials
   * [Contributing](tutorials/README.md)
   * Getting started
-    * [Launch Library 2](tutorials/getting_started_LL2.md)
-    * [Spaceflight News API](tutorials/getting_started_SNAPI.md)
+    * [Launch Library 2](tutorials/getting_started_LL2/README.md)
+    * [Spaceflight News API](tutorials/getting_started_SNAPI/README.md)
   * Process and visualize data
     * [Coming soon™] Process and make statistics with LL2 data
     * [Coming soon™] Process and visualize launch telemetry with LDAPI
