@@ -1,7 +1,7 @@
 ![LL2 Cover](../assets/ll2_historic_launches.png)
 
 [![Documentation](https://raw.githubusercontent.com/TheSpaceDevs/Tutorials/a10b94f4476ce7a134f9b6e0e75ef761cb35a446/assets/badge_ll2_doc.svg)](https://ll.thespacedevs.com/docs/)
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/p7ntkNA)
+[![Discord server](https://img.shields.io/badge/Discord-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/p7ntkNA)
 
 # Launch Library 2 - Frequently Asked Questions (FAQ)
 
@@ -78,14 +78,14 @@ LL2 is still maintained and improved regularly. However, most of the upgrades ar
 performance improvements, requiring no version bump. New features or data can also be added without bumping the LL2
 version if they are fully compatible.
 
-When a new version is released, the announcement will be made the TSD [Discord](https://discord.gg/p7ntkNA)
+When a new version is released, the announcement will be made the TSD [Discord server](https://discord.gg/p7ntkNA)
 and [Twitter](https://twitter.com/TheSpaceDevs) first.
 
 > ### Will there be a Launch Library 3?
 
 There is no plan for a major version update of the Launch Library API at the moment. However, it is still under
 development and updated regularly. If there ever is, news will be announced on the
-TSD [Discord](https://discord.gg/p7ntkNA)
+TSD [Discord server](https://discord.gg/p7ntkNA)
 and [Twitter](https://twitter.com/TheSpaceDevs) first.
 
 ## Free and paid access
@@ -194,8 +194,9 @@ meet at least one of the following criteria:
 - Carry crew higher than 80 km
 - Draw significant public interest
 
-It is possible to suggest suborbital launches to be added to LL2 by asking librarians on the TSD
-[Discord](https://discord.gg/p7ntkNA).
+It is possible to suggest suborbital launches to be added to LL2 by asking librarians in the
+[`💬feedback-and-help`](https://discord.com/channels/676725644444565514/1019976345884827750) forum of the TSD
+[Discord server](https://discord.gg/p7ntkNA).
 
 To remove suborbital launches from LL2 queries, it is possible to use the `include_suborbital=false` filter.
 
