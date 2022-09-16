@@ -281,8 +281,7 @@ the [`#feedback-and-help`](https://discord.com/channels/676725644444565514/10199
 > ### How do I report a bug/data mistake?
 
 If you found a bug or data mistake, let the staff know in
-the [`#feedback-and-help`](https://discord.com/channels/676725644444565514/1019976345884827750)
-or [`#ll-data`](https://discord.com/channels/676725644444565514/738822880875380746) channels on the TSD
+the [`#feedback-and-help`](https://discord.com/channels/676725644444565514/1019976345884827750) channel on the TSD
 [Discord server](https://discord.gg/p7ntkNA), or email [support@thespacedevs.com](mailto:support@thespacedevs.com).
 
 > ### How do I contact the LL2 staff?
