@@ -59,7 +59,7 @@ Launch Library 2 is a REST API providing space launch data including but not lim
 - Space stations with related data such as dockings, expeditions
 - Astronauts and their flights
 - Launch vehicles, reusable firt stages and spacecraft
-- Programs : Apollo, Tiangon, Starship, etc. and their related data
+- Programs : Apollo, Tiangong, Starship, etc. and their related data
 
 > ### How is LL2 related to the original Launch Library API?
 
