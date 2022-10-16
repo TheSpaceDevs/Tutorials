@@ -58,7 +58,7 @@ Launch Library 2 is a REST API providing space launch data including but not lim
 - Spaceflight events
 - Space stations with related data such as dockings, expeditions
 - Astronauts and their flights
-- Launch vehicles, reusable firt stages and spacecraft
+- Launch vehicles, reusable first stages and spacecraft
 - Programs : Apollo, Tiangong, Starship, etc. and their related data
 
 > ### How is LL2 related to the original Launch Library API?
@@ -78,7 +78,7 @@ LL2 is still maintained and improved regularly. However, most of the upgrades ar
 performance improvements, requiring no version bump. New features or data can also be added without bumping the LL2
 version if they are fully compatible.
 
-When a new version is released, the announcement will be made the TSD [Discord server](https://discord.gg/p7ntkNA)
+When a new version is released, the announcement will be made on the TSD [Discord server](https://discord.gg/p7ntkNA)
 and [Twitter](https://twitter.com/TheSpaceDevs) first.
 
 > ### Will there be a Launch Library 3?
@@ -92,7 +92,7 @@ and [Twitter](https://twitter.com/TheSpaceDevs) first.
 
 > ### Is LL2 free to use?
 
-All the data in Launch Library 2 is free to acess with up to 15 API calls per hour.
+All the data in Launch Library 2 is free to access with up to 15 API calls per hour.
 An API key is needed for higher access rates.
 
 > ### What is lldev?
