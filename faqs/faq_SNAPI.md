@@ -26,7 +26,6 @@
 * [API](#api)
     * [How to filter the API response?](#how-to-filter-the-api-response)
     * [How to apply multiple filters?](#how-to-apply-multiple-filters)
-    * [How to apply filters with multiple values?](#how-to-apply-filters-with-multiple-values)
     * [How to get more results in a single request?](#how-to-get-more-results-in-a-single-request)
     * [How to paginate through the data?](#how-to-paginate-through-the-data)
     * [How to sort the API response?](#how-to-sort-the-api-response)
