@@ -82,7 +82,8 @@ Some basic filters are applied during processing to remove irrelevant data.
 
 > ### How often is the data updated?
 
-:warning: ???
+The importer runs every 10 minutes to check for new data, so new articles can take up to 10 minutes to appear in the
+API.
 
 > ### What date/time format is used in SNAPI?
 
