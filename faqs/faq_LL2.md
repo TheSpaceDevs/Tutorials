@@ -30,6 +30,7 @@
     * [What is a Launch Service Provider (LSP)?](#what-is-a-launch-service-provider-lsp)
     * [What date/time format is used in LL2?](#what-datetime-format-is-used-in-ll2)
     * [What country code format is used in LL2?](#what-country-code-format-is-used-in-ll2)
+    * [What are the different launch statuses used in LL2?](#what-are-the-different-launch-statuses-used-in-ll2)
     * [Which suborbital launches are allowed in LL2?](#which-suborbital-launches-are-allowed-in-ll2)
     * [Why do launches remain `In Flight` after deployment?](#why-do-launches-remain-in-flight-after-deployment)
     * [How is the data linked to other APIs?](#how-is-the-data-linked-to-other-apis)
@@ -184,6 +185,10 @@ All the datetime fields in LL2 follow the [ISO 8601](https://en.wikipedia.org/wi
 > ### What country code format is used in LL2?
 
 LL2 country codes use **comma-separated** [ISO 3166-1 alpha-3](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) codes.
+
+> ### What are the different launch statuses used in LL2?
+
+The list of launch statuses, along with their ID, description, etc. is available on the [launchstatus config endpoint](https://ll.thespacedevs.com/2.2.0/config/launchstatus/).
 
 > ### Which suborbital launches are allowed in LL2?
 
