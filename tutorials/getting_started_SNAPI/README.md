@@ -5,14 +5,14 @@ The Spaceflight News API (SNAPI for short) enables you to request space related 
 A full list of features can be found [here](https://thespacedevs.com/snapi).
 
 To get you started with the API, this tutorial contains some introduction information together with code examples.
-For more detailed documentation on all the endpoints, please refer to the [documentation](https://api.spaceflightnewsapi.net/documentation).
+For more detailed documentation on all the endpoints, please refer to the [documentation](https://api.spaceflightnewsapi.net/v4/documentation).
 
 ## Quickstart
 
 To query data, endpoint URLs are used.
 Filters and search terms can be added to these.
 
-Querying the articles endpoint: https://api.spaceflightnewsapi.net/v3/articles
+Querying the articles endpoint: https://api.spaceflightnewsapi.net/v4/articles
 
 Adding filters is done by adding them to the base url.
 
@@ -23,35 +23,36 @@ Adding filters is done by adding them to the base url.
 
 > Filtering
 
-Here two filters are added, a minimum and maximum date and time to get the launches between the two.
+We can filter on various properties, for example on the news site that published the article. Here, we get all the articles published by NASA:
+```shell
+curl https://api.spaceflightnewsapi.net/v4/articles?news_site=NASA
+```
 
-The time frame of the minimum and maximum are a month ago and now.
-The filtered variable is `net`, which represents the launch datetime.
-
-To filter `net` we add two underscores `__` and the filter terms `gte` (greater-than-or-equal) and `lte` (less-than-or-equal).
-Combining these two filters is done using the ampersand symbol `&`.
-
-Before adding these filters a question mark `?` is added after the base url to indicate the start of parameters.
-Then the filter parameter name is given with an equals sign `=` with the value following it.
-
-https://github.com/TheSpaceDevs/Tutorials/blob/60256f360d409f7938f52a11fde0615e4abb131e/tutorials/getting_started_LL2/launches_past_month.py#L7-L12
-
-> Setting response mode
-
-https://github.com/TheSpaceDevs/Tutorials/blob/60256f360d409f7938f52a11fde0615e4abb131e/tutorials/getting_started_LL2/launches_past_month.py#L23-L24
+Or maybe we want all the articles related to the Artemis I launch:
+```shell
+curl https://api.spaceflightnewsapi.net/v4/articles?launch=65896761-b6ca-4df3-9699-e077a360c52a
+```
 
 > Limiting
 
-https://github.com/TheSpaceDevs/Tutorials/blob/60256f360d409f7938f52a11fde0615e4abb131e/tutorials/getting_started_LL2/launches_past_month.py#L26-L27
-
-> Ordering
-
-https://github.com/TheSpaceDevs/Tutorials/blob/60256f360d409f7938f52a11fde0615e4abb131e/tutorials/getting_started_LL2/launches_past_month.py#L29-L30
-
-> Assembling query URL
-
-https://github.com/TheSpaceDevs/Tutorials/blob/60256f360d409f7938f52a11fde0615e4abb131e/tutorials/getting_started_LL2/launches_past_month.py#L32-L36
+By default, you'll get 10 articles in the response. You can change this with the `?limit` query parameter:
+```shell
+curl https://api.spaceflightnewsapi.net/v4/articles?limit=3
+```
 
 > Paginating through all the results
 
-https://github.com/TheSpaceDevs/Tutorials/blob/60256f360d409f7938f52a11fde0615e4abb131e/tutorials/getting_started_LL2/launches_past_month.py#L47-L58
+With the `next` key you can paginate through all the results of your query:
+```python
+next_url = "https://api.spaceflightnewsapi.net/v4/articles?launch=65896761-b6ca-4df3-9699-e077a360c52a"
+while next_url:
+    # Requesting next data
+    next_results = requests.get(next_url).json()
+    print(next_results)
+    
+    # Adding to the original results dictionary
+    results['results'] += next_results['results']
+
+    # Updating the next URL
+    next_url = next_results['next']
+```
