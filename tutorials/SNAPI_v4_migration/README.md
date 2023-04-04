@@ -7,7 +7,7 @@ to do when you're planning to move from v3 to v4.
 
 In terms of response, not that much has changed:
 
-v3 response
+**v3 response**
 
 ```json
 [
@@ -32,7 +32,7 @@ v3 response
 ]
 ```
 
-v4 resonse
+**v4 resonse**
 
 ```json
 {
@@ -74,3 +74,43 @@ In terms of article attributes, keys that consist of multiple words are represen
 
 Documentation is available at https://api.spaceflightnewsapi.net/v4/documentation/. The OpenAPI json is downloadable, so
 you can use frameworks like the [openapi generator](https://openapi-generator.tech/).
+
+## Examples (Python)
+### Getting a list of all articles
+
+**v3**
+```python
+import requests
+
+articles = requests.get(
+  "https://api.spaceflightnewsapi.net/v3/articles/").json()
+print(articles)
+```
+
+**v4**
+```python
+import requests
+
+response = requests.get(
+  "https://api.spaceflightnewsapi.net/v4/articles/").json()
+print(response["results"])
+```
+
+### Searching
+**v3**
+```python
+import requests
+
+articles = requests.get(
+  "https://api.spaceflightnewsapi.net/v3/articles?title_contains=nasa").json()
+print(articles)
+```
+
+**v4**
+```python
+import requests
+
+response = requests.get(
+  "https://api.spaceflightnewsapi.net/v4/articles?title=nasa").json()
+print(response["results"])
+```
