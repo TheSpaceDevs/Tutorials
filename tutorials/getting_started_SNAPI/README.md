@@ -23,12 +23,12 @@ Adding filters is done by adding them to the base url.
 
 > Filtering
 
-We can filter on various properties, for example on the news site that published the article. Here, we get all the articles published by NASA:
+You can filter on various properties, for example on the news site that published the article. For example get all the articles published by NASA:
 ```shell
 curl https://api.spaceflightnewsapi.net/v4/articles?news_site=NASA
 ```
 
-Or maybe we want all the articles related to the Artemis I launch:
+Or maybe you'll want all the articles related to the Artemis I launch:
 ```shell
 curl https://api.spaceflightnewsapi.net/v4/articles?launch=65896761-b6ca-4df3-9699-e077a360c52a
 ```
