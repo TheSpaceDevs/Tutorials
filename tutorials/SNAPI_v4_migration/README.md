@@ -62,7 +62,7 @@ In terms of response, not that much has changed:
 }
 ```
 
-The list with articles is now returned as `results`, comparable with the Launch Library response. The response now also
+The list with articles is now returned as `results`, comparable with the Launch Library 2 response. The response now also
 includes meta information about the numbers of articles in the database and a shortcut links to help you with pagination
 for example.
 
