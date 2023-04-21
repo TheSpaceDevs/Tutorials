@@ -56,4 +56,4 @@ https://github.com/TheSpaceDevs/Tutorials/blob/1b1a40a64b18f7d0ab5d0131189d038fd
 
 > Paginating through all the results
 
-https://github.com/TheSpaceDevs/Tutorials/blob/1b1a40a64b18f7d0ab5d0131189d038fd542b7a9/tutorials/getting_started_LL2/launches_past_month.py#L47-L58
+https://github.com/TheSpaceDevs/Tutorials/blob/1b1a40a64b18f7d0ab5d0131189d038fd542b7a9/tutorials/getting_started_LL2/launches_past_month.py#L91-L110
