@@ -35,11 +35,55 @@ query_url = launch_base_url + '?' + '&'.join(
 )
 print(f'query URL: {query_url}')
 
-# Requesting first data
-results = requests.get(query_url)
+# Function to handle requesting data
+def get_results(query_url: str) -> dict or None:
+    """
+    Requests data using
+    the request GET method.
 
-# Converting to JSON
-results = results.json()
+    Parameters
+    ----------
+    quer_url : str
+        URL to query.
+
+    Returns
+    -------
+    results : dict or None
+        Results from the query.
+
+    Notes
+    -----
+    Prints exceptions instead of
+    raising them as this is script
+    is only meant as a tutorial.
+    """
+    try:
+        # Requesting data
+        results = requests.get(query_url)
+    except Exception as e:
+        # Print exception when it occurs
+        print(f'Exception: {e}')
+    else:
+        # Checking status of the query
+        status = results.status_code
+        print(f'Status code: {status}')
+
+        # Return when the query status isn't 200 OK
+        # See: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+        if status != 200:
+            return
+
+        # Converting to JSON and returning
+        return results.json()
+
+# Perform first query
+results = get_results(query_url)
+
+# Checking if it was succesful
+if not results:
+    # Quitting the program as an example
+    # use your own error handling here
+    quit()
 
 # Printing resulting dictionary
 print(results)
@@ -48,7 +92,15 @@ print(results)
 next_url = results['next']
 while next_url:
     # Requesting next data
-    next_results = requests.get(next_url).json()
+    next_results = get_results(next_url)
+
+    # Checking if it was succesful
+    if not results:
+        # Quitting the program as an example
+        # use your own error handling here
+        quit()
+
+    # Printing next results
     print(next_results)
     
     # Adding to the original results dictionary
