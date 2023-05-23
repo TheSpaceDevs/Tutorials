@@ -1,7 +1,7 @@
 # Migrating to SNAPI v4
 
 With the release of SNAPI v4 a couple of changes are necessary. Although not many or big changes, it's nice to know what
-to do when you're planning to move from v3 to v4.
+to do when you're planning to move from v3 to v4. This is not a complete list of changes, but it should help you get started.
 
 ## Response
 
@@ -72,7 +72,7 @@ In terms of article attributes, keys that consist of multiple words are represen
 
 ## Documentation
 
-Documentation is available at https://api.spaceflightnewsapi.net/v4/documentation/. The OpenAPI json is downloadable, so
+Documentation is available at https://api.spaceflightnewsapi.net/v4/docs/. The OpenAPI json is downloadable, so
 you can use frameworks like the [openapi generator](https://openapi-generator.tech/).
 
 ## Examples (Python)
@@ -110,7 +110,57 @@ print(articles)
 ```python
 import requests
 
+# Here we demo title, but this can also be done with summary.
+response_contains = requests.get(
+  "https://api.spaceflightnewsapi.net/v4/articles?title_contains='nasa launches sls'").json()
+print(response["response_contains"])
+
+response_contains_all = requests.get(
+  "https://api.spaceflightnewsapi.net/v4/articles?title_contains_all='nasa, dragon, spacex'").json()
+print(response["response_contains_all"])
+
+response_contains_one = requests.get(
+  "https://api.spaceflightnewsapi.net/v4/articles?title_contains_one='nasa, dragon, spacex'").json()
+
+response_search = requests.get(
+  "https://api.spaceflightnewsapi.net/v4/articles?search=somerandomsearchphrase").json()
+```
+
+### Search for articles that have a relation with a launch
+**v3**
+```python
+import requests
+
 response = requests.get(
-  "https://api.spaceflightnewsapi.net/v4/articles?title=nasa").json()
+  "https://api.spaceflightnewsapi.net/v3/articles/launch/41699701-2ef4-4b0c-ac9d-6757820cde87").json()
+print(response)
+```
+
+**v4**
+```python
+import requests
+
+response = requests.get(
+  "https://api.spaceflightnewsapi.net/v4/articles?launch=41699701-2ef4-4b0c-ac9d-6757820cde87").json()
 print(response["results"])
 ```
+
+You can now also search for articles that relate to multiple launches:
+```python
+import requests
+
+response = requests.get(
+  "https://api.spaceflightnewsapi.net/v4/articles?launch=41699701-2ef4-4b0c-ac9d-6757820cde87,d8bd2b25-129b-4ab7-95d9-fb8ad1fdd73e").json()
+print(response["results"])
+```
+
+If you want to get only articles that have a related launch or event, you can use the `has_launch` and `has_event` parameters:
+```python
+import requests
+
+response = requests.get(
+  "https://api.spaceflightnewsapi.net/v4/articles?has_launch=true").json()
+print(response["results"])
+```
+
+Above options also work for events.
