@@ -5,7 +5,7 @@ The Spaceflight News API (SNAPI for short) enables you to request space related 
 A full list of features can be found [here](https://thespacedevs.com/snapi).
 
 To get you started with the API, this tutorial contains some introduction information together with code examples.
-For more detailed documentation on all the endpoints, please refer to the [documentation](https://api.spaceflightnewsapi.net/v4/documentation).
+For more detailed documentation on all the endpoints, please refer to the [documentation](https://api.spaceflightnewsapi.net/v4/docs).
 
 ## Quickstart
 
@@ -14,7 +14,7 @@ Filters and search terms can be added to these.
 
 Querying the articles endpoint: https://api.spaceflightnewsapi.net/v4/articles
 
-Adding filters is done by adding them to the base url.
+Adding filters is done by adding them to the base url. See the full list of filters in the [documentation](https://api.spaceflightnewsapi.net/v4/docs).
 
 
 ## Examples

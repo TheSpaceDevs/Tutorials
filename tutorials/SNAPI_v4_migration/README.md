@@ -32,7 +32,7 @@ In terms of response, not that much has changed:
 ]
 ```
 
-**v4 resonse**
+**v4 response**
 
 ```json
 {
