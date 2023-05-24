@@ -1,7 +1,7 @@
 ![SNAPI Cover](../assets/snapi_poster.png)
 
 [![Website](https://raw.githubusercontent.com/TheSpaceDevs/Tutorials/b475617700544896da25f3dbf70857c111d93299/assets/badge_snapi_website.svg)](https://spaceflightnewsapi.net/)
-[![Documentation](https://raw.githubusercontent.com/TheSpaceDevs/Tutorials/b475617700544896da25f3dbf70857c111d93299/assets/badge_snapi_doc.svg)](https://api.spaceflightnewsapi.net/documentation)
+[![Documentation](https://raw.githubusercontent.com/TheSpaceDevs/Tutorials/b475617700544896da25f3dbf70857c111d93299/assets/badge_snapi_doc.svg)](https://api.spaceflightnewsapi.net/v4/docs)
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/p7ntkNA)
 
 # Spaceflight News API - Frequently Asked Questions (FAQ)
@@ -71,7 +71,7 @@ No API key is required to use SNAPI.
 > ### What data is available?
 
 A list of the main data elements available through SNAPI is available on its [website](https://spaceflightnewsapi.net/).
-The full list of endpoints is available in the [documentation](https://api.spaceflightnewsapi.net/documentation).
+The full list of endpoints is available in the [documentation](https://api.spaceflightnewsapi.net/v4/docs).
 
 > ### Where does SNAPI get its data from?
 
@@ -107,28 +107,30 @@ Articles are linked to [Launch Library 2](https://thespacedevs.com/llapi) launch
 
 > ### How to filter the API response?
 
-Filters can be applied to an API query by adding `?<field>_<filter>=<value>` to the end of the query.
+Filters can be applied to an API query by adding `?<filter>=<value>` to the end of the query.
 
-For example: https://api.spaceflightnewsapi.net/v3/articles?title_contains=NASA
+For example: https://api.spaceflightnewsapi.net/v4/articles?title_contains=NASA
 
 > ### How to apply multiple filters?
 
 Multiple filters can be applied by separating them with `&`.
 
-For example: https://api.spaceflightnewsapi.net/v3/articles?title_contains=NASA&publishedAt_lte=2022-01-01
+For example: https://api.spaceflightnewsapi.net/v4/articles/?title_contains=NASA&published_at_lte=2022-01-01
 
 
 > ### How to get more results in a single request?
 
-It is possible to increase the number of results per request by using the `_limit=<number>` filter.
+It is possible to increase the number of results per request by using the `limit=<number>` filter.
 
 > ### How to paginate through the data?
 
-The API supports pagination through the `_start=<number>` filter.
+The API supports pagination through the `offset=<number>` filter. This filter is automatically applied to the request
+URL and provided in the `next` field of the response.
 
 > ### How to sort the API response?
 
-The API response can be sorted by any of the available fields using `_sort=<field>`.
+The API response can be sorted by any of the available fields using `ordering=<field>`. Use `-<field>` to sort in
+descending order.
 
 ## Help & Contact
 
