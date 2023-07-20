@@ -21,6 +21,7 @@
     * [How do I get an API key?](#how-do-i-get-an-api-key)
     * [How do I use my API key?](#how-do-i-use-my-api-key)
     * [How do I change my API key?](#how-do-i-change-my-api-key)
+    * [How do I check how many API calls I have left?](#how-do-i-check-how-many-api-calls-i-have-left)
 * [Data](#data)
     * [What data is available?](#what-data-is-available)
     * [Where does LL2 get its data from?](#where-does-ll2-get-its-data-from)
@@ -93,8 +94,8 @@ and [Twitter](https://twitter.com/TheSpaceDevs) first.
 
 > ### Is LL2 free to use?
 
-All the data in Launch Library 2 is free to access with up to 15 API calls per hour.
-An API key is needed for higher access rates.
+All the data in Launch Library 2 is free to access with up to 15 API calls per hour (per IP).
+An API key is needed for higher access rates (per key).
 
 > ### What is lldev?
 
@@ -105,8 +106,8 @@ never in production.
 > ### Do I need an API key?
 
 The 15 calls per hour limit should be enough for most uses. If you feel like you need more (for a mobile app for
-example),
-then consider setting up a cache updated within the 15 calls per hour limit that serves data to your clients instead.
+example), then consider setting up a cache updated within the 15 calls per hour limit that serves data to your clients 
+instead.
 
 Additionally, it is recommended if real-time data is needed, to perform fewer API calls per hour overall and more
 around the time of the launch. Such optimizations of the API calls distribution can reduce the need for a paid API key.
@@ -127,10 +128,27 @@ To use your API key, add the following header in your request :
 - key: `"Authorization"`
 - value: `"Token <token>"`, where `<token>` is your API key (without the `<>`).
 
+You can check that your API key is working by performing a request to the 
+[`/api-throttle`](https://ll.thespacedevs.com/2.2.0/api-throttle/) endpoint and checking the `ident` field in the 
+response: if it display your IP, then your API key is not properly set up in your request.
+
+Note that queries to this endpoint do not count towards your API calls limit.
+
+
 > ### How do I change my API key?
 
 To change your API key, head over to our [website](https://thespacedevs.com/supportus), login with your Patreon account,
 and follow the instructions.
+
+> ### How do I check how many API calls I have left?
+
+To check your API calls usage and rate limits, perform a request to the
+[`/api-throttle`](https://ll.thespacedevs.com/2.2.0/api-throttle/) endpoint. This will return your current rate limit,
+the frequency of that limit (e.g. 3600 for 1 hour), the number of calls you have made within that period, and the time
+in seconds until you can make calls again if you are being rate-limited.
+
+Note that queries to this endpoint do not count towards your API calls limit.
+
 
 ## Data
 
