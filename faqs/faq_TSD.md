@@ -11,6 +11,7 @@
 
 <!-- Start TOC (do not remove me) -->
 
+* [Terms of use](#terms-of-use)
 * [About](#about)
     * [What is *The Space Devs* (TSD) ?](#what-is-the-space-devs-tsd)
     * [How is TSD managed?](#how-is-tsd-managed)
@@ -31,6 +32,15 @@
     * [How do I contact the TSD staff?](#how-do-i-contact-the-tsd-staff)
 
 <!-- End TOC (do not remove me) -->
+
+## Terms of use
+
+> By using any service provided by The Space Devs, you agree to the following terms. These apply, but are not limited, to the data provided through the Launch Library 2 API and the Spaceflight News API.
+
+You are free to use the data in any way, shape, or form, and share what you create with it. Please refrain from forwarding it without adding value.
+Due to the large amount of manual labor involved, we cannot however guarantee a 100% accuracy of all the information provided.
+
+Attribution is not mandatory, but is encouraged and appreciated. It helps us avoid circular data sourcing and makes it easier to reach us in case changes are required.
 
 ## About
 
