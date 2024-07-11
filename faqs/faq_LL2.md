@@ -130,7 +130,7 @@ To use your API key, add the following header in your request :
 
 You can check that your API key is working by performing a request to the 
 [`/api-throttle`](https://ll.thespacedevs.com/2.2.0/api-throttle/) endpoint and checking the `ident` field in the 
-response: if it display your IP, then your API key is not properly set up in your request.
+response: if it displays your IP, then your API key is not properly set up in your request.
 
 Note that queries to this endpoint do not count towards your API calls limit.
 
