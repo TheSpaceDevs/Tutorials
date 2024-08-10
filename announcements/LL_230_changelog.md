@@ -220,7 +220,7 @@ No.
 - automated the endpoint docs to provide fully exhaustive filtering, sorting, ordering, and generic information
 - major refactor of all serializers to clean up code and allow full tests coverage, this means some fields might have
   been added/removed to/from the `list` and `normal` modes
-- major refactor all endpoints to ensure polymorphism is properly documented in the schema
+- major refactor of all endpoints to ensure polymorphism is properly documented in the schema
 - removed the non-strict LSP & location filtering option from the `Launch` endpoint that prevented proper filter
   documentation
 - renamed all endpoint URLs to use plural and `snake_case`
