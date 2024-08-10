@@ -183,6 +183,7 @@ No.
 
 ### ⚙️ Type & format changes
 
+- made the `family` field in the `LauncherConfiguration` model a FK to the new `LauncherConfigurationFamily` config
 - made the `founding_year` field an integer in the `Agency` model
 - made the `latitude` and `longitude` fields floats in the `Location` and `Pad` models
 - made the `spacecraft_stage` field in the `Rocket` model an M2M relation to the `SpacecraftFlight` model
