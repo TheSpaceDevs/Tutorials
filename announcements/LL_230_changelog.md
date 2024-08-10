@@ -189,7 +189,8 @@ No.
 - made the `status` field in the `Launcher` model a `LauncherStatus` FK, and added filtering by FK ID on the endpoint
 - made the `type` field in the `Agency` model a FK to the `AgencyType` config
 - replaced the `agency_id` field in the `Pad` model with an M2M relation to the `Agency` model
-- replaced the `turn_around_time_days` integer field in the `FirstStage` model by an ISO8601-formatted `turn_around_time`
+- replaced the `turn_around_time_days` integer field in the `FirstStage` model by an
+  ISO8601-formatted `turn_around_time`
   duration field
 - reworked the `DockingEvent` model to make it work with a chaser and a target, both of which can be
   a `Spacecraft`, `SpaceStation`, or `Payload` FK
@@ -212,6 +213,8 @@ No.
 
 ### 📈 API & endpoint enhancements
 
+- added admin panel validations to prevent common human errors (e.g. multiple librarians editing something at the same
+  time)
 - automated the endpoint docs to provide fully exhaustive filtering, sorting, ordering, and generic information
 - major refactor of all serializers to clean up code and allow full tests coverage, this means some fields might have
   been added/removed to/from the `list` and `normal` modes
