@@ -153,6 +153,7 @@ No.
   almost all previous `image_url`, `profile_url`, `logo_url`, etc. fields across many models
 - added the `LauncherConfigurationFamily` model, used as FK in the `LauncherConfiguration` model
 - added the `Payload` and `PayloadFlight` models (+ `PayloadType` config)
+- added the `ProgramType` config, used as FK in the `Program` model
 - added the `SocialMediaLink` model (+ `SocialMedia` config), used as M2M in the `Astronaut`  and `Agency` models
 - added the `SpacecraftConfigurationFamily` model, used as M2M in the `SpacecraftConfiguration` model
 - added the `SpacecraftConfigurationType` config, used as FK in the `SpacecraftConfiguration` model
