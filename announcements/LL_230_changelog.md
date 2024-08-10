@@ -1,4 +1,4 @@
-![LL2 Cover](../assets/LL2_230.png)
+![LL2 Cover](../assets/ll2_230.png)
 
 [![Documentation](../assets/badge_ll2_doc.svg)](https://ll.thespacedevs.com/2.3.0/swagger/)
 [![Discord server](https://img.shields.io/badge/Discord-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/p7ntkNA)
