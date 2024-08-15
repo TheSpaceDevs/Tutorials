@@ -170,8 +170,8 @@ No.
 - added the `live` boolean field to the `VidURL` model, and automated it
 - added payload and spacecraft landing statistics to the `Agency` model
 - added stats to the `SpacecraftConfiguration` model
-- added the 'astronauts' field to the 'Event' model
-- added 'attempted_landings' and 'failed_landings' fields to the 'LandingLocation' model
+- added the `astronauts` field to the `Event` model
+- added the `attempted_landings` and `failed_landings` fields to the `LandingLocation` model
 
 ### 🔀 Field/filter renaming & reorganization
 
