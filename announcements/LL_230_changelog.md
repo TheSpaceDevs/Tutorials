@@ -185,6 +185,8 @@ No.
 
 ### ⚙️ Type & format changes
 
+- made the `apogee`, `geo_capacity`, `gto_capacity` `launch_mass`, `leo_capacity`, `sso_capacity`, and `to_thrust`
+  fields floats in the `LauncherConfiguration` model
 - made the `family` field in the `LauncherConfiguration` model a FK to the new `LauncherConfigurationFamily` config
 - made the `founding_year` field an integer in the `Agency` model
 - made the `latitude` and `longitude` fields floats in the `Location` and `Pad` models
