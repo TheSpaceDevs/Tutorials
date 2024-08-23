@@ -164,6 +164,7 @@ No.
 - added the `duration` and `turn_around_time` duration fields to the `SpacecraftFlight` model
 - added the `fastest_turnaround` duration fields to the `Pad`, `Launcher`, `LauncherConfiguration`, `Spacecraft`,
   and `SpacecraftConfiguration` models
+- added the `geo_capacity` and `sso_capacity` fields to the `LauncherConfiguration` model
 - added the `is_placeholder` field to the `Launcher` model
 - added the `is_placeholder` field to the `LauncherConfig` model (for cases where the exact variant is not
   known yet, e.g. a generic Vulcan Centaur or Ariane 6)
@@ -185,8 +186,8 @@ No.
 
 ### ⚙️ Type & format changes
 
-- made the `apogee`, `geo_capacity`, `gto_capacity` `launch_mass`, `leo_capacity`, `sso_capacity`, and `to_thrust`
-  fields floats in the `LauncherConfiguration` model
+- made the `apogee`, `gto_capacity` `launch_mass`, `leo_capacity`, and `to_thrust` fields floats in the
+  `LauncherConfiguration` model
 - made the `family` field in the `LauncherConfiguration` model a FK to the new `LauncherConfigurationFamily` config
 - made the `founding_year` field an integer in the `Agency` model
 - made the `latitude` and `longitude` fields floats in the `Location` and `Pad` models
