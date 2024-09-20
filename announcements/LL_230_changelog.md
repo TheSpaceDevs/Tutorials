@@ -191,6 +191,7 @@ No.
 - made the `family` field in the `LauncherConfiguration` model a FK to the new `LauncherConfigurationFamily` config
 - made the `founding_year` field an integer in the `Agency` model
 - made the `latitude` and `longitude` fields floats in the `Location` and `Pad` models
+- made the `launch_cost` field an integer in the `LauncherConfiguration` model
 - made the `spacecraft_stage` field in the `Rocket` model an M2M relation to the `SpacecraftFlight` model
 - made the `status`, `net`, `window_start` and `window_end` fields non-nullable in the `Launch` model
 - made the `status` field in the `Launcher` model a `LauncherStatus` FK, and added filtering by FK ID on the endpoint
@@ -217,6 +218,7 @@ No.
 ### 🚀 Misc
 
 - added the `Payload Deployed` (ID 9) launch status, returned as `In Flight` (ID 6) in older versions
+- added `webcast_live` automation for NASA+ URLs in `VidURL` objects
 
 ### 📈 API & endpoint enhancements
 
