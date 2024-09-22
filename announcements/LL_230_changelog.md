@@ -91,7 +91,7 @@ And of course, a big shoutout as well to [our Patrons](https://thespacedevs.com/
       or to accurately display one or multiple nationalities.
 - 🛰️ **Payloads**
     - *While the idea remains not to transform LL2 into an exhaustive SATCAT*, new `Payload`, `PayloadFlight` objects
-      allow the addition of uncrewed & non-reusable space objects to rockets in a similar fashion ad the
+      allow the addition of uncrewed & non-reusable space objects to rockets in a similar fashion as the
       existing `Spacecraft` objects.
     - This makes it possible to provide a broader coverage (e.g. with dockings, landings, etc.) for high-profile
       missions.
