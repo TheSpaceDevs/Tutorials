@@ -43,7 +43,7 @@ Before diving head first into all the piled up issues, we held two dev team meet
 we would tackle the breaking database and API changes while ensuring full backwards compatibility with previous API
 versions.
 
-That being done, we started working on version 2.3.0 on february 11. Barely 6 months, 100+ issues and 200+ pull
+That being done, we started working on version 2.3.0 on february 11. Some 100+ issues and 200+ pull
 requests later, Launch Library version 2.3.0 is ready.
 
 User-facing changes aside, this release is a **major** step-up in code maintainability. All endpoints have
