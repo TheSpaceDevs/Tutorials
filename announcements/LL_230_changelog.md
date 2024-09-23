@@ -151,7 +151,7 @@ No.
   models
 - added the `Image` and `ImageVariant` models (+ `ImageLicense` and `ImageVariantType` configs), used as FK in place of
   almost all previous `image_url`, `profile_url`, `logo_url`, etc. fields across many models
-- added the `LauncherConfigurationFamily` model, used as FK in the `LauncherConfiguration` model
+- added the `LauncherConfigurationFamily` model, used as M2M in the `LauncherConfiguration` model
 - added the `Payload` and `PayloadFlight` models (+ `PayloadType` config)
 - added the `ProgramType` config, used as FK in the `Program` model
 - added the `SocialMediaLink` model (+ `SocialMedia` config), used as M2M in the `Astronaut`  and `Agency` models
