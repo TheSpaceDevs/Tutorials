@@ -26,7 +26,7 @@
     * [What data is available?](#what-data-is-available)
     * [Where does LL2 get its data from?](#where-does-ll2-get-its-data-from)
     * [How often is the data updated?](#how-often-is-the-data-updated)
-    * [How are webcasts (`vidURLs`) selected and sorted?](#how-are-webcasts-vidurls-selected-and-sorted)
+    * [How are webcasts (`vid_urls`) selected and sorted?](#how-are-webcasts-vid_urls-selected-and-sorted)
     * [How to exclude TSD videos from the webcast list?](#how-to-exclude-tsd-videos-from-the-webcast-list)
     * [What is a Launch Service Provider (LSP)?](#what-is-a-launch-service-provider-lsp)
     * [What date/time format is used in LL2?](#what-datetime-format-is-used-in-ll2)
@@ -128,8 +128,8 @@ To use your API key, add the following header in your request :
 - key: `"Authorization"`
 - value: `"Token <token>"`, where `<token>` is your API key (without the `<>`).
 
-You can check that your API key is working by performing a request to the 
-[`/api-throttle`](https://ll.thespacedevs.com/2.2.0/api-throttle/) endpoint and checking the `ident` field in the 
+You can check that your API key is working by performing a request to the
+[`/api-throttle`](https://ll.thespacedevs.com/2.3.0/api-throttle/) endpoint and checking the `ident` field in the
 response: if it displays your IP, then your API key is not properly set up in your request.
 
 Note that queries to this endpoint do not count towards your API calls limit.
@@ -143,7 +143,7 @@ and follow the instructions.
 > ### How do I check how many API calls I have left?
 
 To check your API calls usage and rate limits, perform a request to the
-[`/api-throttle`](https://ll.thespacedevs.com/2.2.0/api-throttle/) endpoint. This will return your current rate limit,
+[`/api-throttle`](https://ll.thespacedevs.com/2.3.0/api-throttle/) endpoint. This will return your current rate limit,
 the frequency of that limit (e.g. 3600 for 1 hour), the number of calls you have made within that period, and the time
 in seconds until you can make calls again if you are being rate-limited.
 
@@ -174,7 +174,7 @@ as other public databases.
 The data in LL2 is updated as often as needed, which means multiple times within an hour during launches or events,
 and usually a few times per day as new information is available.
 
-> ### How are webcasts (`vidURLs`) selected and sorted?
+> ### How are webcasts (`vid_urls`) selected and sorted?
 
 When available, only official webcasts are provided in LL2. If there are multiple options, the english-speaking hosted
 webcasts with the highest quality are prioritized.
@@ -184,7 +184,7 @@ the available webcasts from the most important to the least.
 
 > ### How to exclude TSD videos from the webcast list?
 
-After launches, some vidURLs with the lowest priority value are launch summary videos provided through the TSD YouTube
+After launches, some `vid_urls` with the lowest priority value are launch summary videos provided through the TSD YouTube
 channel. These are simple edits to cut out the countdown sequence and holds.
 
 To exclude this, it is possible to use the YouTube API to filter out the videos from the
@@ -206,7 +206,7 @@ LL2 country codes use **comma-separated** [ISO 3166-1 alpha-3](https://en.wikipe
 
 > ### What are the different launch statuses used in LL2?
 
-The list of launch statuses, along with their ID, description, etc. is available on the [launchstatus config endpoint](https://ll.thespacedevs.com/2.2.0/config/launchstatus/).
+The list of launch statuses, along with their ID, description, etc. is available on the [launchstatus config endpoint](https://ll.thespacedevs.com/2.3.0/config/launch_statuses/).
 
 > ### Which suborbital launches are allowed in LL2?
 
@@ -245,18 +245,18 @@ LL2 launch and event IDs are used in the following APIs:
 
 Filters can be applied to an API query by adding `?<filter>=<value>` to the end of the query.
 
-For example: https://ll.thespacedevs.com/2.2.0/launch/upcoming/?lsp__name=SpaceX
+For example: https://ll.thespacedevs.com/2.3.0/launches/upcoming/?lsp__name=SpaceX
 
 > ### How to apply multiple filters?
 
 Multiple filters can be applied by separating them with `&`.
 
-For example: https://ll.thespacedevs.com/2.2.0/launch/upcoming/?lsp__name=SpaceX&is_crewed=true
+For example: https://ll.thespacedevs.com/2.3.0/launches/upcoming/?lsp__name=SpaceX&is_crewed=true
 
 > ### How to apply filters with multiple values?
 
 Only a handful of filters can be applied with multiple values, such as `spacecraft_config__ids`, `location__ids`,
-`lsp__ids`. For these, multiple values can be applied by separating them with `,`.
+`lsp__id`. For these, multiple values can be applied by separating them with `,`.
 
 > ### How to get more results in a single request?
 
