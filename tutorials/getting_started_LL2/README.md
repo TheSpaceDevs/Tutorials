@@ -14,7 +14,7 @@ Since the production API `ll` has [rate limits](../../faqs/faq_LL2.md#free-and-p
 To query data, endpoint URLs are used.
 Filters and search terms can be added to these.
 
-Querying the upcoming launch endpoint: https://lldev.thespacedevs.com/2.2.0/launch/upcoming/
+Querying the upcoming launch endpoint: https://lldev.thespacedevs.com/2.3.0/launches/upcoming/
 
 Adding filters is done by adding them to the base url.
 
