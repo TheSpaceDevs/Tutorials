@@ -2,7 +2,7 @@ from datetime import datetime, timedelta
 import requests
 
 # URL
-launch_base_url = 'https://lldev.thespacedevs.com/2.2.0/launch/'
+launch_base_url = 'https://lldev.thespacedevs.com/2.3.0/launches/'
 
 # Time frame: now - 31 days ago
 now = datetime.now()
@@ -36,7 +36,7 @@ query_url = launch_base_url + '?' + '&'.join(
 print(f'query URL: {query_url}')
 
 # Function to handle requesting data
-def get_results(query_url: str) -> dict or None:
+def get_results(query_url: str) -> dict | None:
     """
     Requests data using
     the request GET method.
@@ -102,7 +102,7 @@ while next_url:
 
     # Printing next results
     print(next_results)
-    
+
     # Adding to the original results dictionary
     results['results'] += next_results['results']
 
