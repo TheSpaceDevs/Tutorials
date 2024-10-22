@@ -176,6 +176,7 @@ No.
 
 ### 🔀 Field/filter renaming & reorganization
 
+- combined the functionality of comma-separated `lsp__ids` and the single `lsp__id` filters into `lsp__id`.
 - moved the `launch_designator` field (unpopulated before 2.3.0) from the `Mission` model to the `Launch` model, and
   automated it
 - renamed the `docked` field in the `SpaceStation` model to `currently_docked`
