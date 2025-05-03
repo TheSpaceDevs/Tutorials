@@ -46,9 +46,8 @@ Attribution is not mandatory, but is encouraged and appreciated. It helps us avo
 
 > ### What is *The Space Devs* (TSD)?
 
-*The Space Devs* (TSD) is a group of space enthusiast developers and librarians working on APIs to improve public
-knowledge and accessibility of spaceflight information. It was created in 2020 by core staff members of Space Launch
-Now, the Spaceflight News API and the original Launch Library API with the following objectives:
+*The Space Devs* (TSD) is a [nonprofit](https://en.wikipedia.org/wiki/Nonprofit_organization_laws_by_jurisdiction#France) managed by a group of space enthusiast developers and librarians working on APIs to improve public knowledge and accessibility of spaceflight information.
+It was created in 2020 by core staff members of Space Launch Now, the Spaceflight News API and the original Launch Library API with the following objectives:
 
 - Maintain and promote the Launch Library 2 and Spaceflight News APIs.
 - Integrate with third-party APIs and services ([TSD partners](#partners)).
@@ -58,22 +57,19 @@ Now, the Spaceflight News API and the original Launch Library API with the follo
 
 > ### How is TSD managed?
 
-Management of *The Space Devs* is handled by a core staff team of developers and librarians involved in the project
-foundation in 2020 and its predecessors as staff members of the original Launch Library and Space Launch Now APIs.
+[Registered in France](https://www.journal-officiel.gouv.fr/pages/associations-detail-annonce/?q.id=id:202400010198), it is managed fully online by a core staff team of developers and librarians involved in the project foundation in 2020 and its predecessors as staff members of the original Launch Library and Space Launch Now APIs.
 
-A crucial management goal is to ensure that the APIs are and remain **financially sustainable in the long-term**, while
-remaining **free to use**. This is what the original Launch Library API failed to achieve and the reason this goal is
-of utmost importance for Launch Library 2, and *The Space Devs* in general. It comes with implications on access rates
-explained in more details [here](#are-the-tsd-apis-free-to-use).
+A crucial management goal is to ensure that the APIs are and remain **financially sustainable in the long-term**, while remaining **free to use**.
+This is what the original Launch Library API failed to achieve and the reason this goal is of utmost importance for Launch Library 2, and *The Space Devs* in general. It comes with implications on access rates explained in more details [here](#are-the-tsd-apis-free-to-use).
 
 > ### How is TSD funded?
 
-*The Space Devs* is **not** a company aiming to make profit. Its only purpose is to provide up-to-date data through APIs
-accessible for free while also covering its expenses.
+As a nonprofit, *The Space Devs* is **not** a company aiming to make profit.
+Its only purpose is to provide up-to-date data through APIs accessible for free while also covering its expenses.
 
-100% of its funding comes from the community through [Patreon](https://www.patreon.com/TheSpaceDevs) subscriptions.
-These subscriptions are also a way to access the Launch Library 2 API at higher rates than at the free tier. More
-details [here](#are-the-tsd-apis-free-to-use).
+100% of its funding comes from the community through [Patreon](https://www.patreon.com/TheSpaceDevs) subscriptions and [Paypal](https://www.paypal.com/donate/?hosted_button_id=UCPX4EL6E9JFA) donations.
+The Patreon subscriptions are also a way to access the Launch Library 2 API at higher rates than at the free tier.
+More details [here](#are-the-tsd-apis-free-to-use).
 
 ## APIs
 
