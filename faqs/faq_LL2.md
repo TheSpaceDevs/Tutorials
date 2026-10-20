@@ -149,6 +149,14 @@ in seconds until you can make calls again if you are being rate-limited.
 
 Note that queries to this endpoint do not count towards your API calls limit.
 
+> ### Should I include a User-Agent header?
+
+Yes, please provide a descriptive and identifiable `User-Agent` header with your requests. While optional for basic queries, setting a custom `User-Agent` helps us identify your application, contact you before blocking traffic in the event of an unintended loop or bug, and better understand how our data is being utilized. 
+
+A recommended format is:  
+`User-Agent: <AppName>/<Version> (<ContactInfoOrWebsite>)`  
+*(e.g., `User-Agent: OrbitTracker/1.2.0 (contact@example.com)`)*
+
 
 ## Data
 
